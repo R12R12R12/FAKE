@@ -67,15 +67,15 @@ TZ_OFFSET_HOURS = 3
 TZ_LABEL = "МСК"
 
 # Лимиты активных отслеживаний
-FREE_TRACK_LIMIT = 3
-SUB_TRACK_LIMIT = 50
+FREE_TRACK_LIMIT = 1
+SUB_TRACK_LIMIT = 100
 
 # Минимальный интервал проверки для бесплатных (сек). 900 = 15 минут.
 # Поставь 60, если хочешь без ограничений.
-FREE_MIN_INTERVAL = 900
+FREE_MIN_INTERVAL = 86400
 
 # Если цель пропущена — уведомлять при движении цены на столько %
-DEFAULT_MOVE_PERCENT = 5
+DEFAULT_MOVE_PERCENT = 10
 
 # Не слать уведомления по одному активу чаще, чем раз в N секунд
 NOTIFY_COOLDOWN = 600
